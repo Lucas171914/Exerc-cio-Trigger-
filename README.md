@@ -7,7 +7,7 @@ em um banco de dados.
 Create table Pedidos ( 
 ID PEDIDO INT AUTO_INCREMENT PRIMARY KEY, 
 DATAPEDIDO DATETIME,
-NomeCliente varchar(100) 
+NomeCliente varchar(100)
 );
  
 INSERT INTO Pedidos (DataPedido, NomeCliente) VALUES 
